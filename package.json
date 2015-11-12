@@ -1,0 +1,23 @@
+{
+  "name": "yalo-helpers",
+  "version": "1.0.0",
+  "description": "A library with helper functions for Yalo",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yalochat/helpers.git"
+  },
+  "keywords": [
+    "helpers",
+    "yalo"
+  ],
+  "author": "Yalo",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/yalochat/helpers/issues"
+  },
+  "homepage": "https://github.com/yalochat/helpers#readme"
+}
