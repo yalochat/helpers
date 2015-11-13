@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/yalochat/helpers/issues"
   },
-  "homepage": "https://github.com/yalochat/helpers#readme"
+  "homepage": "https://github.com/yalochat/helpers#readme",
+  "dependencies": {
+    "moment": "^2.10.6",
+    "moment-timezone": "^0.4.1",
+    "underscore": "^1.8.3"
+  }
 }
