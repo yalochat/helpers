@@ -4,8 +4,13 @@
   "description": "A library with helper functions for Yalo",
   "main": "lib/index.js",
   "scripts": {
-    "test": "test/index.js",
+    "test": "lab -a code -v",
+    "test-tap": "lab -a code -r tap -o tests.tap",
+    "test-cov-html": "lab -a code -r html -o coverage.html",
     "start": "node lib/index.js"
+  },
+  "engines": {
+    "node": ">=0.10.40"
   },
   "repository": {
     "type": "git",
