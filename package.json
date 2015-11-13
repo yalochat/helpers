@@ -4,7 +4,8 @@
   "description": "A library with helper functions for Yalo",
   "main": "lib/index.js",
   "scripts": {
-    "test": "test/index.js"
+    "test": "test/index.js",
+    "start": "node lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +22,11 @@
   },
   "homepage": "https://github.com/yalochat/helpers#readme",
   "dependencies": {
-    "moment": "^2.10.6",
     "moment-timezone": "^0.4.1",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "code": "^2.0.1",
+    "lab": "^7.3.0"
   }
 }
